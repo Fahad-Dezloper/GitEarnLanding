@@ -7,7 +7,6 @@ export default function GitEarnLanding() {
   const [submitted, setSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
-  const waitlistCount = 250;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -109,12 +108,11 @@ export default function GitEarnLanding() {
               ))}
             </div>
             <p className="text-sm text-gray-400 font-medium">
-              <span className="text-[#2665C5]">{waitlistCount}+</span> people waiting
+              <span className="text-[#2665C5]">700+</span> people waiting
             </p>
           </div>
         </div>
       </main>
-
     </div>
   );
 }
