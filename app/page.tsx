@@ -15,7 +15,7 @@ export default function GitEarnLanding() {
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbyPi7Vb-F6q74rGvSgXGlYz3JjyBWww-hGdJOtOlNiaul5G8P7UjaBB_UX1L6_LPCKTcQ/exec",
+        "https://script.google.com/macros/s/AKfycbwjp3ZlwJnl539q6he-YY4lwKLV8vA8avSKxoSOzP3yfTAG86deC2OVc8uaLLV82cYYTQ/exec",
         {
           method: "POST",
           mode: "no-cors",
