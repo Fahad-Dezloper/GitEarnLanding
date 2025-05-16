@@ -40,7 +40,7 @@ export default function GitEarnLanding() {
     <div className="min-h-screen mainGrad max-h-screen overflow-hidden text-white">
       <main className="max-w-4xl mx-auto px-4 py-24">
         {/* Hero Section */}
-        <div className="space-y-8 text-center mb-16">
+        <div className="space-y-8 text-center mb-6 md:mb-16">
           <div className="flex w-full items-center justify-center">
           <img src="/GITEARN.svg" alt="GitEarn" className="" />
           </div>
@@ -51,7 +51,7 @@ export default function GitEarnLanding() {
         </div>
 
         {/* Beta Access Section */}
-        <div className="bg-gray-800/10 backdrop-blur-sm rounded-2xl p-8 mb-16 border border-gray-800/20">
+        <div className="bg-gray-800/10 backdrop-blur-sm rounded-2xl p-8 md:mb-16 border border-gray-800/20">
           <div className="max-w-xl mx-auto text-center space-y-6">
             <div className="inline-block px-4 py-1 rounded-full bg-[#2665C5]/10 text-[#2665C5] text-sm font-medium mb-4">
               Beta Access
@@ -96,7 +96,7 @@ export default function GitEarnLanding() {
 
         {/* Social Proof */}
         <div className="text-center">
-          <div className="inline-flex items-center gap-4 px-6 py-3 rounded-full bg-gray-800/10 backdrop-blur-sm border border-gray-800/20">
+          <div className="inline-flex items-center gap-4 px-6 rounded-full bg-gray-800/10 backdrop-blur-sm border border-gray-800/20">
             <div className="flex -space-x-2">
               {["JD", "AS", "MK"].map((initials, index) => (
                 <div
@@ -108,7 +108,7 @@ export default function GitEarnLanding() {
               ))}
             </div>
             <p className="text-sm text-gray-400 font-medium">
-              <span className="text-[#2665C5]">700+</span> people waiting
+              <span className="text-[#2665C5]">700+</span> people already joined
             </p>
           </div>
         </div>
